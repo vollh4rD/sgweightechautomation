@@ -49,10 +49,10 @@ if (empty($_POST["message"])) {
     /* Contact Form Setup Begin */
     $send_name      = "Rometheme";      // Replace your name
     $send_title     = "Rometheme Send Mail";        // Replace email sent title
-    $send_address   = "name@domain.com"; // Replace your email address
+    $send_address   = "sdy@duck.com"; // Replace your email address
 
-    $smtp_address   = "mail@gmail.com";     // Replace your email GMail address
-    $smtp_password  = "12345";               // Replace your email password
+    $smtp_address   = "rustzzpkj@gmail.com";     // Replace your email GMail address
+    $smtp_password  = "va1lorant\$ucks";               // Replace your email password
     $smtp_server    = "smtp.gmail.com"; // Replace your email server address
 
 
