@@ -357,7 +357,12 @@
 	<!-- <script src="js/vendor/form-scripts.js"></script> -->
 
 	<script src="js/script.js"></script>
-	
+	<script> var form = document.querySelector('.pageclip-form')
+		Pageclip.form(form, {
+		  onSubmit: function (event) { },
+		  onResponse: function (error, response) { },
+		  successTemplate: '<span>Thank you!</span>'
+		})</script>
 	
 
 </body>
